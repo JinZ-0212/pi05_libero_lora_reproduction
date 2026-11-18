@@ -1,6 +1,6 @@
 # 上传到 GitHub
 
-本项目对应仓库：[12345dghdheb/pi05_libero_lora_reproduction](https://github.com/12345dghdheb/pi05_libero_lora_reproduction)。以下说明适用于首次发布或换机器操作，权重单独作为 Release 附件。
+本项目对应仓库：[JinZ-0212/pi05_libero_lora_reproduction](https://github.com/JinZ-0212/pi05_libero_lora_reproduction)。以下说明适用于首次发布或换机器操作，权重单独作为 Release 附件。
 
 ## 代码仓库
 
@@ -17,7 +17,7 @@ git init -b main
 git config core.longpaths true
 git add .
 git commit -m "Add pi05 LoRA training and LIBERO reproduction records"
-git remote add origin https://github.com/12345dghdheb/pi05_libero_lora_reproduction.git
+git remote add origin https://github.com/JinZ-0212/pi05_libero_lora_reproduction.git
 git push -u origin main
 ```
 
@@ -27,7 +27,7 @@ git push -u origin main
 
 ## 权重附件
 
-两份 NPZ 和 `weights-manifest.json` 已作为 `pi05-libero-lora-weights.zip` 放入 [v0.1.0-pilot Release](https://github.com/12345dghdheb/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)，避免把 177 MiB 的文件提交到普通 Git。下载与校验说明见 `models/README.md`。
+两份 NPZ 和 `weights-manifest.json` 已作为 `pi05-libero-lora-weights.zip` 放入 [v0.1.0-pilot Release](https://github.com/JinZ-0212/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)，避免把 177 MiB 的文件提交到普通 Git。下载与校验说明见 `models/README.md`。
 
 完整基础模型、专家原始数据和大体积 Orbax 检查点均不在仓库内。原始云端环境和完整检查点没有删除。
 

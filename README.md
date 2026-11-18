@@ -98,7 +98,7 @@ python scripts/pipeline.py train2000 --dry-run
 - [详细结果与限制](docs/RESULTS.md)
 - [模型、数据和实现说明](docs/MODEL_AND_DATA.md)
 - [权重获取与恢复](models/README.md)
-- [下载本轮 LoRA 权重（Release）](https://github.com/12345dghdheb/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)
+- [下载本轮 LoRA 权重（Release）](https://github.com/JinZ-0212/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)
 - [上传到 GitHub](docs/GITHUB_UPLOAD.md)
 - [上游许可与引用](THIRD_PARTY_NOTICES.md)
 
