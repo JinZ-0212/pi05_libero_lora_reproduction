@@ -5,7 +5,12 @@
 - `lora-adapters-step500.npz`
 - `lora-adapters-step2000.npz`
 
-每份约 177 MiB，超过 GitHub 普通 Git 单文件 100 MiB 限制，故不纳入代码仓库；`.gitignore` 默认排除 NPZ。可以将这两份文件与 manifest 上传为 GitHub Release 附件，代码 README 再补上实际下载链接。当前没有自动创建 Release，也没有虚构下载地址。
+每份约 177 MiB，超过 GitHub 普通 Git 单文件 100 MiB 限制，故不纳入代码仓库；`.gitignore` 默认排除 NPZ。两份文件与 manifest 统一放在 Release 附件中：
+
+- [Release 页面：v0.1.0-pilot](https://github.com/12345dghdheb/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)
+- [下载两份 LoRA 参数与 manifest（371 MB）](https://github.com/12345dghdheb/pi05_libero_lora_reproduction/releases/download/v0.1.0-pilot/pi05-libero-lora-weights.zip)
+
+ZIP 的 SHA256 为 `5fe4710415c8e8c8a55969d5743375abb507b5a75176a56a6ced19fefbdc5cfc`，解压后的两份 NPZ 可分别对照本目录的 manifest 核验。该 Release 标记为预发布，保留本轮 0/10 的实际结果。
 
 ## 推理需要哪些文件
 

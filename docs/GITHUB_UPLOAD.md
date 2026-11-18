@@ -27,7 +27,7 @@ git push -u origin main
 
 ## 权重附件
 
-另一个本地交付物 `pi05-libero-lora-weights.zip` 内含两份 NPZ 和 `weights-manifest.json`。解压后可以上传为一个 Release 的附件，避免把 177 MiB 的文件提交到普通 Git。发布后再将实际下载链接填入 `models/README.md`。
+两份 NPZ 和 `weights-manifest.json` 已作为 `pi05-libero-lora-weights.zip` 放入 [v0.1.0-pilot Release](https://github.com/12345dghdheb/pi05_libero_lora_reproduction/releases/tag/v0.1.0-pilot)，避免把 177 MiB 的文件提交到普通 Git。下载与校验说明见 `models/README.md`。
 
 完整基础模型、专家原始数据和大体积 Orbax 检查点均不在仓库内。原始云端环境和完整检查点没有删除。
 
