@@ -1,0 +1,6 @@
+{
+  "archive": "pi05-object-lora-pilot-results.zip",
+  "sha256": "eff3944d1e423800744f63169cf2a4a05d3c096904b129fbf7ec099685afa84a",
+  "extracted_without_modification": true,
+  "excluded": "LoRA NPZ stored separately in the weights bundle"
+}

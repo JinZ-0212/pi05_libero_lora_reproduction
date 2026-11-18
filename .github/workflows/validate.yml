@@ -1,0 +1,16 @@
+name: Verify recorded experiments
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  offline-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify hashes, metrics, paired states and Python syntax
+        run: python scripts/check_artifacts.py
+      - name: Check setup shell syntax
+        run: bash -n scripts/bootstrap.sh
+      - name: Inspect continuation command without running training
+        run: python scripts/pipeline.py train2000 --dry-run

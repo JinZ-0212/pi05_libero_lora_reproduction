@@ -1,0 +1,226 @@
+{
+  "training": {
+    "status": "completed",
+    "planned_steps": 500,
+    "completed_steps": 500,
+    "base_checkpoint": "/home/linux/Documents/pi05-libero-20261118/assets/pi05_base",
+    "training_mode": "LoRA only; all original parameters frozen",
+    "batch_size": 1,
+    "action_horizon": 10,
+    "seed": 42,
+    "ema": false,
+    "wandb_enabled": false,
+    "errors": [],
+    "limitations": "Pilot: 40 expert trajectories, 500 updates; no expected benchmark reproduction.",
+    "trainable_parameters": 49987584,
+    "frozen_parameters": 3353433872,
+    "trainable_fraction": 0.014687450451331938,
+    "train_frames": 5934,
+    "validation_frames": 1452,
+    "fixed_loss_before": {
+      "train": 0.08825891725718975,
+      "validation": 0.09126649722456932
+    },
+    "training_seconds": 231.64466552900012,
+    "original_parameters_unchanged": true,
+    "changed_lora_tensors": 20,
+    "lora_tensor_count": 20,
+    "fixed_loss_after": {
+      "train": 0.05064691845327616,
+      "validation": 0.05817732755094766
+    },
+    "initial_checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/0",
+    "final_checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/500",
+    "elapsed_seconds": 395.5869868160007
+  },
+  "data_audit": {
+    "status": "validated",
+    "repo_id": "physical-intelligence/libero",
+    "revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+    "train_episodes": 40,
+    "validation_episodes": 10,
+    "train_frames": 5934,
+    "validation_frames": 1452,
+    "episode_sets_disjoint": true,
+    "all_parquet_sha256_verified": true,
+    "normalization_fit": "training frames only; each source frame counted once; exact numpy quantiles",
+    "train_model_target_shape": [
+      1,
+      10,
+      32
+    ],
+    "data_adapter": "official LIBERO transforms",
+    "raw_gripper_action_values": [
+      -1.0,
+      1.0
+    ],
+    "preview_selection": "first selected train and validation episode of each task",
+    "limitations": "40 train episodes and 10 validation episodes are a pilot subset, not the full Object training set."
+  },
+  "training_peak_device_vram_MiB": 22041,
+  "warm_training_step_median_seconds_excluding_first": 0.29009027800020704,
+  "first_50_training_loss_mean": 0.07522780016064644,
+  "last_50_training_loss_mean": 0.04077494718134403,
+  "evaluation": {
+    "initial": {
+      "summary": {
+        "status": "completed",
+        "checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/0",
+        "condition": "initial",
+        "suite": "libero_object",
+        "seed": 7,
+        "initial_state_index": 1,
+        "replan_steps": 5,
+        "flow_steps": 10,
+        "episodes_per_task": 1,
+        "expected_episodes": 10,
+        "completed_episodes": 10,
+        "successes": 0,
+        "success_rate": 0.0,
+        "model_calls": 560,
+        "elapsed_seconds": 166.51143089499965,
+        "executed_steps_including_settling": 2900,
+        "weight_updates": 0,
+        "action_horizon": 10,
+        "discrete_state_input": false,
+        "normalization": "Object pilot: fitted on 40 training episodes only",
+        "errors": [],
+        "limitations": "Pilot before/after comparison: 40 expert training episodes, 500 LoRA updates, one simulator initial state per task, environment seed=7. The initial-state index 1 was predeclared and is not guaranteed disjoint from demonstration collection states. This is not an official benchmark reproduction."
+      },
+      "warm_server_median_ms": 156.47047600032238,
+      "warm_server_p95_ms": 159.36528670044936
+    },
+    "trained": {
+      "summary": {
+        "status": "completed",
+        "checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/500",
+        "condition": "trained",
+        "suite": "libero_object",
+        "seed": 7,
+        "initial_state_index": 1,
+        "replan_steps": 5,
+        "flow_steps": 10,
+        "episodes_per_task": 1,
+        "expected_episodes": 10,
+        "completed_episodes": 10,
+        "successes": 0,
+        "success_rate": 0.0,
+        "model_calls": 560,
+        "elapsed_seconds": 169.58378470700154,
+        "executed_steps_including_settling": 2900,
+        "weight_updates": 500,
+        "action_horizon": 10,
+        "discrete_state_input": false,
+        "normalization": "Object pilot: fitted on 40 training episodes only",
+        "errors": [],
+        "limitations": "Pilot before/after comparison: 40 expert training episodes, 500 LoRA updates, one simulator initial state per task, environment seed=7. The initial-state index 1 was predeclared and is not guaranteed disjoint from demonstration collection states. This is not an official benchmark reproduction."
+      },
+      "warm_server_median_ms": 158.75357199911377,
+      "warm_server_p95_ms": 161.29927239962853
+    }
+  },
+  "paired_tasks": [
+    {
+      "task": "pick up the alphabet soup and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the cream cheese and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the salad dressing and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the bbq sauce and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the ketchup and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the tomato sauce and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the butter and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the milk and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    },
+    {
+      "task": "pick up the orange juice and place it in the basket",
+      "initial_state_index": 1,
+      "initial_success": false,
+      "trained_success": false,
+      "initial_sim_state_identical": true,
+      "first_images_identical": true,
+      "first_robot_state_max_abs_difference": 0.0
+    }
+  ],
+  "all_10_initial_cases_identical": true,
+  "sample_task": "pick up the alphabet soup and place it in the basket",
+  "sample_selection": "First task in evaluator order, regardless of success.",
+  "sample_videos": {
+    "initial": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/evaluation/initial/libero_object/videos/rollout_pick_up_the_alphabet_soup_and_place_it_in_the_basket_failure.mp4",
+    "trained": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/evaluation/trained/libero_object/videos/rollout_pick_up_the_alphabet_soup_and_place_it_in_the_basket_failure.mp4"
+  },
+  "limitations": [
+    "500-update training pilot, not a converged policy.",
+    "Validation loss uses one fixed midpoint per held-out trajectory.",
+    "Simulation uses one initial state per task; demonstration collection state overlap not audited."
+  ]
+}

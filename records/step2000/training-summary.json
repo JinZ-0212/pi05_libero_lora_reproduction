@@ -1,0 +1,35 @@
+{
+  "status": "completed",
+  "start_step": 500,
+  "planned_steps": 2000,
+  "additional_updates": 1500,
+  "completed_steps": 2000,
+  "errors": [],
+  "training_mode": "LoRA only; all original parameters frozen",
+  "batch_size": 1,
+  "seed": 42,
+  "learning_rate_after_resume": 1e-05,
+  "source_checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/500",
+  "optimizer_state_restored": true,
+  "optimizer_counters": [
+    500,
+    500
+  ],
+  "sampler_sequence_restored": true,
+  "train_frames": 5934,
+  "validation_frames": 1452,
+  "fixed_loss_before": {
+    "train": 0.05064691845327616,
+    "validation": 0.05817732755094766
+  },
+  "training_seconds": 514.0011367280003,
+  "original_parameters_unchanged": true,
+  "changed_lora_tensors": 20,
+  "lora_tensor_count": 20,
+  "fixed_loss_after": {
+    "train": 0.04867049166932702,
+    "validation": 0.0551228660158813
+  },
+  "final_checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-2000-20261118/checkpoints/pi05_object_lora_3090/continuation2000/2000",
+  "elapsed_seconds": 622.8404883940002
+}

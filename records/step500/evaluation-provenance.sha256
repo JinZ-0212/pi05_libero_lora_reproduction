@@ -1,0 +1,4 @@
+dcc0f58316b463748800b4ad5ddcb9a67b0808405246fa242503545a984744a6  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/protocol.json
+75d09eb27985fab0c687b78249c403a952ed88821b3dafa04c8ef76816fd25db  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/serve_pilot.py
+c28bb55ac1bff4ef22894f7a0a8d14b555018a7ccb65dda0823586f91aa58633  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/eval_pilot.py
+7330c11b31787eba3727a4cd34ee0f074416b9986fd20d75040e2ebd7d1c0d31  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/run_evaluation_only.sh

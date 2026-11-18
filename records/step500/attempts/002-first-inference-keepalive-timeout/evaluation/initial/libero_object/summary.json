@@ -1,0 +1,65 @@
+{
+  "status": "incomplete",
+  "checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/0",
+  "condition": "initial",
+  "suite": "libero_object",
+  "seed": 7,
+  "initial_state_index": 1,
+  "replan_steps": 5,
+  "flow_steps": 10,
+  "episodes_per_task": 1,
+  "expected_episodes": 10,
+  "completed_episodes": 0,
+  "successes": 0,
+  "success_rate": null,
+  "model_calls": 0,
+  "elapsed_seconds": 67.41662575400005,
+  "executed_steps_including_settling": 100,
+  "weight_updates": 0,
+  "action_horizon": 10,
+  "discrete_state_input": false,
+  "normalization": "Object pilot: fitted on 40 training episodes only",
+  "errors": [
+    {
+      "task": "pick up the alphabet soup and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the cream cheese and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the salad dressing and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the bbq sauce and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the ketchup and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the tomato sauce and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the butter and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the milk and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the chocolate pudding and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    },
+    {
+      "task": "pick up the orange juice and place it in the basket",
+      "error": "Caught exception: sent 1011 (internal error) keepalive ping timeout; no close frame received"
+    }
+  ],
+  "limitations": "Pilot before/after comparison: 40 expert training episodes, 500 LoRA updates, one simulator initial state per task, environment seed=7. The initial-state index 1 was predeclared and is not guaranteed disjoint from demonstration collection states. This is not an official benchmark reproduction."
+}

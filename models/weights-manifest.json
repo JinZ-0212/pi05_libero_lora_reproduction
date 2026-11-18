@@ -1,0 +1,12 @@
+{
+  "step500": {
+    "filename": "lora-adapters-step500.npz",
+    "bytes": 185446715,
+    "sha256": "fa42ac12b99ca0150246022756b476c66e3e8c282fd8d2dfd637fae5ebedbca2"
+  },
+  "step2000": {
+    "filename": "lora-adapters-step2000.npz",
+    "bytes": 185443783,
+    "sha256": "7727733e0ea8ac873c70a56d33250c70ad42357f55afe2035826d043def349de"
+  }
+}

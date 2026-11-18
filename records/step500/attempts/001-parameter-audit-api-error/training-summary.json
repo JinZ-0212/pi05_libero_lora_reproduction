@@ -1,0 +1,20 @@
+{
+  "status": "error",
+  "planned_steps": 500,
+  "completed_steps": 0,
+  "base_checkpoint": "/home/linux/Documents/pi05-libero-20261118/assets/pi05_base",
+  "training_mode": "LoRA only; all original parameters frozen",
+  "batch_size": 1,
+  "action_horizon": 10,
+  "seed": 42,
+  "ema": false,
+  "wandb_enabled": false,
+  "errors": [
+    {
+      "error": "ValueError('too many values to unpack (expected 2)')",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/train_pilot.py\", line 95, in <module>\n    audit = parameter_audit(state.params)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/train_pilot.py\", line 35, in parameter_audit\n    for path, leaf in params.flat_state():\n        ^^^^^^^^^^\nValueError: too many values to unpack (expected 2)\n"
+    }
+  ],
+  "limitations": "Pilot: 40 expert trajectories, 500 updates; no expected benchmark reproduction.",
+  "elapsed_seconds": 60.122746106000704
+}

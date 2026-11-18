@@ -1,0 +1,105 @@
+{
+  "experiment_id": "pi05-object-lora-20261118",
+  "created_at_utc": "2026-11-18T14:49:48.532847+00:00",
+  "purpose": "Complete a real data -> LoRA training -> own checkpoint -> simulation validation pilot for research internship preparation.",
+  "analysis_kind": "exploratory pipeline reproduction",
+  "question": "Can official pi05_base be LoRA trained on real Object demonstrations on the existing 3090, with verified frozen original weights, checkpoint reload, and paired closed-loop simulation?",
+  "success_criteria": [
+    "All 50 expert episode files pass SHA256 and shape checks.",
+    "Train/validation episode IDs are disjoint.",
+    "Only training episodes determine normalization.",
+    "500 real optimizer updates complete with finite losses and gradients.",
+    "Only LoRA parameters change.",
+    "Step-0 and step-500 checkpoints save, reload, and each completes 10 simulator episodes."
+  ],
+  "not_promised": "A positive task success rate or generalization improvement is not required to establish a working training pipeline.",
+  "dataset": {
+    "repo_id": "physical-intelligence/libero",
+    "revision": "a4336d589d589045d1c56423ffdf3b88a0e19b1f",
+    "suite": "libero_object",
+    "tasks": 10,
+    "train_episodes_per_task": 4,
+    "validation_episodes_per_task": 1,
+    "split_seed": "42 + task_index",
+    "selection_manifest": "dataset-manifest.json",
+    "expert_data_bytes": 1020726288
+  },
+  "model": {
+    "initial_weights": "assets/pi05_base/params",
+    "pi05": true,
+    "action_horizon": 10,
+    "discrete_state_input": false,
+    "paligemma_variant": "gemma_2b_lora",
+    "action_expert_variant": "gemma_300m_lora",
+    "trainable": "Only parameter paths containing lora; all original weights frozen, including vision and projections.",
+    "lora_ranks": {
+      "paligemma": 16,
+      "action_expert": 32
+    },
+    "ema": false,
+    "normalization": "train-only per-frame mean/std and exact q01/q99; raw actions already deltas; no extra delta conversion"
+  },
+  "training": {
+    "steps": 500,
+    "batch_size": 1,
+    "seed": 42,
+    "optimizer": "AdamW, clip_gradient_norm=1.0",
+    "warmup_steps": 20,
+    "peak_lr": 0.0001,
+    "end_lr": 1e-05,
+    "frame_sampling": "uniform over training frames with replacement",
+    "chunk_end_handling": "repeat last action within each episode; never cross episode boundary",
+    "checkpoint_steps": [
+      0,
+      500
+    ],
+    "wandb_enabled": false
+  },
+  "validation_loss": {
+    "episodes": 10,
+    "frames": "midpoint of each validation episode",
+    "flow_rng_seed": "1000 + task_index, fixed before/after",
+    "training_mode": false,
+    "selection": "predeclared final checkpoint only; no search by validation success"
+  },
+  "simulation": {
+    "suite": "libero_object",
+    "tasks": 10,
+    "episodes_per_task_per_checkpoint": 1,
+    "initial_state_index": 1,
+    "environment_seed": 7,
+    "initial_policy_rng_seed": 0,
+    "flow_steps": 10,
+    "replan_steps": 5,
+    "max_control_steps": 280,
+    "settling_steps": 10,
+    "initial_checkpoint": 0,
+    "final_checkpoint": 500,
+    "total_episodes": 20,
+    "evaluator": "pinned official evaluator; shift initial state index and add logging only"
+  },
+  "budget": {
+    "new_rental": false,
+    "existing_hardware": "RTX 3090 24GB, 32GB host RAM",
+    "download_cap_GB": 3,
+    "training_wall_limit_seconds": 1800,
+    "simulation_wall_limit_seconds_per_checkpoint": 600,
+    "total_cloud_pipeline_wall_limit_seconds": 3600,
+    "output_storage_cap_GB": 35,
+    "stop_on_nonfinite": true,
+    "stop_on_infrastructure_error": true,
+    "training_attempts": 1
+  },
+  "sources": {
+    "openpi": "215abfb217dbac7d5f1273282331b9b1866c0479",
+    "libero": "f78abd68ee283de9f9be3c8f7e2a9ad60246e95c"
+  },
+  "limitations": [
+    "Pilot subset and 500 updates cannot reproduce a converged official expert.",
+    "Frozen bfloat16 original weights are checked before/after training, after initialization casts.",
+    "State index 1 is new relative to earlier runs, but demonstration collection state disjointness has not been audited.",
+    "Uniform frame sampling gives longer episodes more weight.",
+    "Raw Parquet reader reuses official OpenPI transforms and official training functions; not the stock LeRobot loader."
+  ],
+  "status": "planned"
+}

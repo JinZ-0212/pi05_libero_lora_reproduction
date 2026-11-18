@@ -1,0 +1,21 @@
+INFO:root:Loaded norm stats from /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/assets/pi05_object_lora_3090/local/libero_object_small
+INFO:root:Loaded norm stats from /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/assets/pi05_object_lora_3090/local/libero_object_small
+INFO:2026-11-18 22:53:44,105:jax._src.xla_bridge:925: Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:jax._src.xla_bridge:Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+INFO:2026-11-18 22:53:44,106:jax._src.xla_bridge:925: Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INFO:jax._src.xla_bridge:Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+INITIALIZING_TRAIN_STATE
+INFO:absl:orbax-checkpoint version: 0.11.13
+INFO:absl:Created BasePyTreeCheckpointHandler: use_ocdbt=True, use_zarr3=False, pytree_metadata_options=PyTreeMetadataOptions(support_rich_types=False), array_metadata_store=<orbax.checkpoint._src.metadata.array_metadata_store.Store object at 0x7c1ef40476d0>
+INFO:absl:Restoring checkpoint from /home/linux/Documents/pi05-libero-20261118/assets/pi05_base/params.
+INFO:absl:[thread=MainThread] Failed to get flag value for EXPERIMENTAL_ORBAX_USE_DISTRIBUTED_PROCESS_ID.
+INFO:absl:[process=0] /jax/checkpoint/read/bytes_per_sec: 372.1 MiB/s (total bytes: 12.5 GiB) (time elapsed: 34 seconds) (per-host)
+INFO:absl:Finished restoring checkpoint in 34.40 seconds from /home/linux/Documents/pi05-libero-20261118/assets/pi05_base/params.
+Traceback (most recent call last):
+  File "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/train_pilot.py", line 95, in <module>
+    audit = parameter_audit(state.params)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/train_pilot.py", line 35, in parameter_audit
+    for path, leaf in params.flat_state():
+        ^^^^^^^^^^
+ValueError: too many values to unpack (expected 2)

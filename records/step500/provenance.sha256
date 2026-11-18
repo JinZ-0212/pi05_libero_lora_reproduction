@@ -1,0 +1,10 @@
+dcc0f58316b463748800b4ad5ddcb9a67b0808405246fa242503545a984744a6  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/protocol.json
+dea65d51a326e129de9e5578aa72d1066b87b6864832ac368fff2f9eeca50cdf  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/dataset-manifest.json
+60ae52b3e16d90fe25b4c3e4a9bf4586c520963c17c840bd9c53d25b5e4759cc  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/download_object.py
+c28bb55ac1bff4ef22894f7a0a8d14b555018a7ccb65dda0823586f91aa58633  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/eval_pilot.py
+c017c483bacfddf3d484f9433e1b0d288a404bbf4d2f7b5eaa7680283f68a61f  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/lora_common.py
+d1fa1afd4fdbcbaecf95886cd044bf553e7ec9e3e3a54ee86cb4bbbbfb4b6bd9  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/prepare_data.py
+7d1652a669be31c807a7e39f95d08b2e72e623fc9d57db05466b1a2ff19a3c01  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/serve_pilot.py
+40489cd32674f4c9b1e229fc03ede9d21a971642e9ad2aa1d08e346146874e1c  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/train_pilot.py
+bc26f931d06afc56d1f789070259c4f9b11b9cfa3ccf13bfd43d773ff03f14bc  /home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/scripts/run_pilot.sh
+6d95f5a6782531a74321fde7a5ddccd8da4bdeddfc2d7d382e70f64f3588bf92  source-revisions.json

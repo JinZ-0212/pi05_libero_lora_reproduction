@@ -1,0 +1,40 @@
+{"phase": "step500", "split": "train", "task": "pick up the alphabet soup and place it in the basket", "episode_index": 1205, "frame_in_episode": 73, "loss": 0.05861475691199303}
+{"phase": "step500", "split": "train", "task": "pick up the cream cheese and place it in the basket", "episode_index": 1126, "frame_in_episode": 65, "loss": 0.025245919823646545}
+{"phase": "step500", "split": "train", "task": "pick up the salad dressing and place it in the basket", "episode_index": 882, "frame_in_episode": 64, "loss": 0.024706048890948296}
+{"phase": "step500", "split": "train", "task": "pick up the bbq sauce and place it in the basket", "episode_index": 1008, "frame_in_episode": 70, "loss": 0.019575228914618492}
+{"phase": "step500", "split": "train", "task": "pick up the ketchup and place it in the basket", "episode_index": 915, "frame_in_episode": 80, "loss": 0.0700669065117836}
+{"phase": "step500", "split": "train", "task": "pick up the tomato sauce and place it in the basket", "episode_index": 1216, "frame_in_episode": 90, "loss": 0.05830097198486328}
+{"phase": "step500", "split": "train", "task": "pick up the butter and place it in the basket", "episode_index": 914, "frame_in_episode": 77, "loss": 0.011481693014502525}
+{"phase": "step500", "split": "train", "task": "pick up the milk and place it in the basket", "episode_index": 1248, "frame_in_episode": 67, "loss": 0.012179002165794373}
+{"phase": "step500", "split": "train", "task": "pick up the chocolate pudding and place it in the basket", "episode_index": 869, "frame_in_episode": 75, "loss": 0.16961397230625153}
+{"phase": "step500", "split": "train", "task": "pick up the orange juice and place it in the basket", "episode_index": 1044, "frame_in_episode": 70, "loss": 0.05668468400835991}
+{"phase": "step500", "split": "validation", "task": "pick up the alphabet soup and place it in the basket", "episode_index": 1024, "frame_in_episode": 71, "loss": 0.04004001244902611}
+{"phase": "step500", "split": "validation", "task": "pick up the cream cheese and place it in the basket", "episode_index": 931, "frame_in_episode": 63, "loss": 0.05151676759123802}
+{"phase": "step500", "split": "validation", "task": "pick up the salad dressing and place it in the basket", "episode_index": 1247, "frame_in_episode": 59, "loss": 0.04793001711368561}
+{"phase": "step500", "split": "validation", "task": "pick up the bbq sauce and place it in the basket", "episode_index": 1022, "frame_in_episode": 87, "loss": 0.09191351383924484}
+{"phase": "step500", "split": "validation", "task": "pick up the ketchup and place it in the basket", "episode_index": 838, "frame_in_episode": 72, "loss": 0.08554234355688095}
+{"phase": "step500", "split": "validation", "task": "pick up the tomato sauce and place it in the basket", "episode_index": 1117, "frame_in_episode": 74, "loss": 0.08496073633432388}
+{"phase": "step500", "split": "validation", "task": "pick up the butter and place it in the basket", "episode_index": 1212, "frame_in_episode": 76, "loss": 0.06973196566104889}
+{"phase": "step500", "split": "validation", "task": "pick up the milk and place it in the basket", "episode_index": 1033, "frame_in_episode": 74, "loss": 0.04230065271258354}
+{"phase": "step500", "split": "validation", "task": "pick up the chocolate pudding and place it in the basket", "episode_index": 1030, "frame_in_episode": 80, "loss": 0.05107111483812332}
+{"phase": "step500", "split": "validation", "task": "pick up the orange juice and place it in the basket", "episode_index": 1093, "frame_in_episode": 66, "loss": 0.016766151413321495}
+{"phase": "step2000", "split": "train", "task": "pick up the alphabet soup and place it in the basket", "episode_index": 1205, "frame_in_episode": 73, "loss": 0.057155609130859375}
+{"phase": "step2000", "split": "train", "task": "pick up the cream cheese and place it in the basket", "episode_index": 1126, "frame_in_episode": 65, "loss": 0.02347109653055668}
+{"phase": "step2000", "split": "train", "task": "pick up the salad dressing and place it in the basket", "episode_index": 882, "frame_in_episode": 64, "loss": 0.023174401372671127}
+{"phase": "step2000", "split": "train", "task": "pick up the bbq sauce and place it in the basket", "episode_index": 1008, "frame_in_episode": 70, "loss": 0.014330086298286915}
+{"phase": "step2000", "split": "train", "task": "pick up the ketchup and place it in the basket", "episode_index": 915, "frame_in_episode": 80, "loss": 0.07257453352212906}
+{"phase": "step2000", "split": "train", "task": "pick up the tomato sauce and place it in the basket", "episode_index": 1216, "frame_in_episode": 90, "loss": 0.05312708765268326}
+{"phase": "step2000", "split": "train", "task": "pick up the butter and place it in the basket", "episode_index": 914, "frame_in_episode": 77, "loss": 0.011011547408998013}
+{"phase": "step2000", "split": "train", "task": "pick up the milk and place it in the basket", "episode_index": 1248, "frame_in_episode": 67, "loss": 0.013531229458749294}
+{"phase": "step2000", "split": "train", "task": "pick up the chocolate pudding and place it in the basket", "episode_index": 869, "frame_in_episode": 75, "loss": 0.17414677143096924}
+{"phase": "step2000", "split": "train", "task": "pick up the orange juice and place it in the basket", "episode_index": 1044, "frame_in_episode": 70, "loss": 0.04418255388736725}
+{"phase": "step2000", "split": "validation", "task": "pick up the alphabet soup and place it in the basket", "episode_index": 1024, "frame_in_episode": 71, "loss": 0.03915737196803093}
+{"phase": "step2000", "split": "validation", "task": "pick up the cream cheese and place it in the basket", "episode_index": 931, "frame_in_episode": 63, "loss": 0.05913710221648216}
+{"phase": "step2000", "split": "validation", "task": "pick up the salad dressing and place it in the basket", "episode_index": 1247, "frame_in_episode": 59, "loss": 0.04997611045837402}
+{"phase": "step2000", "split": "validation", "task": "pick up the bbq sauce and place it in the basket", "episode_index": 1022, "frame_in_episode": 87, "loss": 0.07388438284397125}
+{"phase": "step2000", "split": "validation", "task": "pick up the ketchup and place it in the basket", "episode_index": 838, "frame_in_episode": 72, "loss": 0.08097221702337265}
+{"phase": "step2000", "split": "validation", "task": "pick up the tomato sauce and place it in the basket", "episode_index": 1117, "frame_in_episode": 74, "loss": 0.06949585676193237}
+{"phase": "step2000", "split": "validation", "task": "pick up the butter and place it in the basket", "episode_index": 1212, "frame_in_episode": 76, "loss": 0.07237885892391205}
+{"phase": "step2000", "split": "validation", "task": "pick up the milk and place it in the basket", "episode_index": 1033, "frame_in_episode": 74, "loss": 0.04428662359714508}
+{"phase": "step2000", "split": "validation", "task": "pick up the chocolate pudding and place it in the basket", "episode_index": 1030, "frame_in_episode": 80, "loss": 0.05097177252173424}
+{"phase": "step2000", "split": "validation", "task": "pick up the orange juice and place it in the basket", "episode_index": 1093, "frame_in_episode": 66, "loss": 0.010968363843858242}

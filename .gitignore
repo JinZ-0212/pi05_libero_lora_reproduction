@@ -1,0 +1,23 @@
+# Runtime, credentials, downloads and weights belong outside Git.
+/runtime/
+/.venv/
+/vendor/
+/.env
+/.env.*
+!/.env.example
+__pycache__/
+*.py[cod]
+*.npz
+*.safetensors
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.part
+*.partial
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.DS_Store
+Thumbs.db

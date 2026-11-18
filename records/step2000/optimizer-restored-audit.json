@@ -1,0 +1,454 @@
+[
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='count'))",
+    "shape": [],
+    "sha256": "518e535b44efdc5dfc3b7c94b639b1fdd9057dc8b73d472bc6841401a56283f1",
+    "scalar": 500
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      256,
+      16
+    ],
+    "sha256": "f8778bba1f018f38838b93a1a817527d5e77ee598d4648d5e5a1816162cfd2e8",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      16,
+      2048
+    ],
+    "sha256": "f8cedf88d97957eff8600e8e96b8171f3508276419c273be5b8b17e9411d71b7",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      256,
+      32
+    ],
+    "sha256": "e1aadded3554e1e923d68ace4bd515e2c5f942037041c4b958473a63ece0b733",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      32,
+      1024
+    ],
+    "sha256": "96ceb86c2a8b726d8c4888d1229c8382ae4477e38baf6e48d17038b8715d5884",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      2048,
+      16
+    ],
+    "sha256": "f9e1c086bb108500f2a48d1a7c1bba15d1d238e9977f0636b79958c40572dc63",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      16,
+      256
+    ],
+    "sha256": "1c3c0cc759754cffb1f1ef45ffcd5b25cc87e3dca5db46b7be0350090defdc6e",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      1024,
+      32
+    ],
+    "sha256": "4ec755e03ab34a3176b195fc9e053eca5470b37d247429d28b0f8ed187d9c8ac",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      32,
+      256
+    ],
+    "sha256": "deb7c04bb5e54803f7b321bd61f86027c7f1ec1b3c97632e8cddbc28ddc555de",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      2048,
+      16
+    ],
+    "sha256": "67b289d42855bb4177b72843021cd144e433f145f717222092512fe60d26d845",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      16,
+      256
+    ],
+    "sha256": "dce4a66c093218f62d8badb202d36f2e470209bed952a1005cbd43a084885269",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      1024,
+      32
+    ],
+    "sha256": "5bb022d06f099949d89b88f70ff349c080b944c773156f0e8987a6b6b8dbfccb",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      32,
+      256
+    ],
+    "sha256": "e582aff19316216dc9052f167ebc93458d760a9cd36d830b689018fe0a8db114",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='gating_einsum_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      2048,
+      16
+    ],
+    "sha256": "711c69bcd8635a9e0469aafffd58a00c43a3741e58cd83df71ac4cb8c3566852",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='gating_einsum_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      16,
+      16384
+    ],
+    "sha256": "fac7af00e9ae9af770bdf499a76b83cfa50f13ed891dd73488dee69b86f097f6",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='linear_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      16384,
+      16
+    ],
+    "sha256": "58b62a3b2f1ca82523faa0885156890887d39a6762fff6df72e6d13c0942fd7f",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='linear_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      16,
+      2048
+    ],
+    "sha256": "7a0456500e35adab5a82d30ca9abfb5541e72f04fb8977a911699ecfc5c237e8",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='gating_einsum_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1024,
+      32
+    ],
+    "sha256": "eb665b88f6b01421e4b94d2c860d7d48bba1f0bee1ca731665c513af5ded9afa",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='gating_einsum_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      32,
+      4096
+    ],
+    "sha256": "d4c97a7b414007cfb6d6c8319e23c75678582386b4bf16a33dc5f923bf549ec2",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='linear_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      4096,
+      32
+    ],
+    "sha256": "4d729179d93370542f1c8dd7d24c90b930aa4f2c31d8f8e4eaf622e5eed5817a",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='mu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='linear_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      32,
+      1024
+    ],
+    "sha256": "4575ebf6f84079ae54a011c067d03e6da05b3390c90da5f1443f6de0fa9798c6",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      256,
+      16
+    ],
+    "sha256": "110130e6b8d6d3d7eb8f5fc6152e171486f8e99c302bf61af98d126f54d7ad8b",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      16,
+      2048
+    ],
+    "sha256": "38c95bd743a02942bb6f6f015aac8141a54e3cd54939f1aa8821c48dd57920d9",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      256,
+      32
+    ],
+    "sha256": "52572ae83022aea9738cbcee493035464eb8a5698018ba522f39c531d50c697f",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='attn_vec_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      32,
+      1024
+    ],
+    "sha256": "302b1575831d5a0ff0ed1d43fb8700a3c736bfa74e3225705ad5c61b2102a17e",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      2048,
+      16
+    ],
+    "sha256": "b611fbbe02b37d843787f4b0a661d8d665b3dc885b933d1adede786d0992171d",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      16,
+      256
+    ],
+    "sha256": "c792d02506d0f7c2d7c260dd4a024f919647988b1234f279d914d1ddb2bee6bd",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      1024,
+      32
+    ],
+    "sha256": "bd270d739dcef7574056eb76f2bbe2f8ee0de5daac831f3408e79d7b3088ea1f",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='kv_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1,
+      32,
+      256
+    ],
+    "sha256": "05e00a6f03a8ca85a9e9d9dfe7f0443e6f43c8e741aabc886d094d4a82c9f9d1",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      2048,
+      16
+    ],
+    "sha256": "d680a1ee099bf6967a123b643e26acb7884e475d20433da299945951f67bd976",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      16,
+      256
+    ],
+    "sha256": "8f7e7ac4f7af96846131d95b81bc7d97b0b442c25e375a98cfe393e2431907a7",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum_1'), DictKey(key='lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      1024,
+      32
+    ],
+    "sha256": "fc5b84e711d91ef4be1e3c245b06eb72f1ea1084c1083944d38ae150d1c496cf",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='attn'), DictKey(key='q_einsum_1'), DictKey(key='lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      8,
+      32,
+      256
+    ],
+    "sha256": "09e74d179b3f05032bebb1b235c7f0873aaa931cd0213317d3549b591842bcb8",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='gating_einsum_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      2048,
+      16
+    ],
+    "sha256": "4cd2f68e8f3257ed4de3ec62005f6a4797859c39b01b78169b7ca314581ad8d5",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='gating_einsum_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      16,
+      16384
+    ],
+    "sha256": "a1a19301a88bfb3dd77098f7d93c4d34ff36627a5744e797b210e7d7ec2f7e03",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='linear_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      16384,
+      16
+    ],
+    "sha256": "0174382210b745ba0499d5265b9267805f70d218a6ea0cf97e74554f133b58aa",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp'), DictKey(key='linear_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      16,
+      2048
+    ],
+    "sha256": "a13d112ddecbf9aa3c3b3237dee7cea96225bb52471347f5bbf79790b205949a",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='gating_einsum_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      1024,
+      32
+    ],
+    "sha256": "11939f6feec30fb06841f65d374f1727fc114375c9aa475f9138ef71d64c179e",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='gating_einsum_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      2,
+      32,
+      4096
+    ],
+    "sha256": "b9347d113e5a35cf48931e3d73132f2044b540ac9b1b14dcd409124fe18d14d9",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='linear_lora_a'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      4096,
+      32
+    ],
+    "sha256": "bc940b6ac650767b9fda364fe5628a970aeef40a93418b6016a19315c545477d",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=0), GetAttrKey(name='nu'), DictKey(key='PaliGemma'), DictKey(key='llm'), DictKey(key='layers'), DictKey(key='mlp_1'), DictKey(key='linear_lora_b'), GetAttrKey(name='value'))",
+    "shape": [
+      18,
+      32,
+      1024
+    ],
+    "sha256": "e54f87901060cac8221db3b4b16bad3901f0cfc1d54d711b2b567cf99f576d5d",
+    "scalar": null
+  },
+  {
+    "path": "(SequenceKey(idx=1), SequenceKey(idx=2), GetAttrKey(name='count'))",
+    "shape": [],
+    "sha256": "518e535b44efdc5dfc3b7c94b639b1fdd9057dc8b73d472bc6841401a56283f1",
+    "scalar": 500
+  }
+]

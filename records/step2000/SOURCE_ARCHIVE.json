@@ -1,0 +1,6 @@
+{
+  "archive": "pi05-lora-step2000-results.zip",
+  "sha256": "3a71dbd6d7c46e6e39a91449f91cd466d3159b48fb77fd44837d59a676c5c78a",
+  "extracted_without_modification": true,
+  "excluded": "LoRA NPZ stored separately in the weights bundle"
+}

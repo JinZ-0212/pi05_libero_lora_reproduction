@@ -1,0 +1,46 @@
+{
+  "experiment_id": "pi05-object-lora-2000-20261118",
+  "created_at_utc": "2026-11-18T15:36:51.076720+00:00",
+  "analysis_kind": "exploratory continuation; same simulator cases previously inspected",
+  "question": "Does resuming the 500-update LoRA checkpoint to 2000 cumulative updates improve paired LIBERO Object success?",
+  "hypothesis": "More optimizer updates may reduce imitation error and improve task completion; proxy loss may improve without success.",
+  "primary_metric": "LIBERO completed-task count out of 10; one same initial-state per task",
+  "parent_experiment": "pi05-object-lora-20261118",
+  "start_step": 500,
+  "final_step": 2000,
+  "additional_updates": 1500,
+  "restore": "Full params and AdamW optimizer state via official checkpoint restore; replay and verify first 500 frame sampler draws; official flow RNG folded by restored global step.",
+  "learning_rate": "Preserve original warmup-cosine schedule including decay_steps=500; clamped floor 1e-5 for updates 501-2000; no restart/warmup.",
+  "fixed": "Original data split (40 train/10 val trajectories), training-only normalization, model/config, batch=1, seed=42, all original weights frozen, evaluator/controller/initial states.",
+  "simulation": {
+    "tasks": 10,
+    "episodes_per_task": 1,
+    "initial_state_index": 1,
+    "environment_seed": 7,
+    "policy_seed": 0,
+    "flow_steps": 10,
+    "replan_steps": 5,
+    "max_control_steps": 280
+  },
+  "diagnostic": "Same 10 midpoint frames per split; fixed noise; not full validation loss.",
+  "budget": {
+    "existing_gpu_only": true,
+    "new_rental": false,
+    "training_wall_seconds": 1800,
+    "evaluation_wall_seconds": 600,
+    "pipeline_wall_seconds": 3600,
+    "training_runs": 1,
+    "evaluation_runs": 1,
+    "max_cumulative_steps": 2000,
+    "download_cap_GB": 0.5,
+    "new_storage_cap_GB": 20
+  },
+  "stop": "Stop at global update 2000 and one valid 10-task evaluation. Abort nonfinite numerics/infrastructure failures; retain evidence. No automatic extension.",
+  "selection": "Evaluate predeclared final checkpoint; no checkpoint selection by success.",
+  "uncertainty": "Single training seed and one episode per task; descriptive paired case counts only, no generalization inference.",
+  "limitations": [
+    "No audited disjointness between simulator initial states and expert collection states.",
+    "Repeated use of the same 10 cases makes this exploratory.",
+    "A continuation at the original low learning-rate floor is not equivalent to a fresh 2000-step cosine schedule."
+  ]
+}

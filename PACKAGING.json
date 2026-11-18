@@ -1,0 +1,18 @@
+{
+  "packaged_at_utc": "2026-11-18T16:03:17.665474+00:00",
+  "purpose": "GitHub-ready local repository; no remote publishing performed",
+  "historical_runs": "2026-11-18 experiment records",
+  "weights_separate": {
+    "step500": {
+      "filename": "lora-adapters-step500.npz",
+      "bytes": 185446715,
+      "sha256": "fa42ac12b99ca0150246022756b476c66e3e8c282fd8d2dfd637fae5ebedbca2"
+    },
+    "step2000": {
+      "filename": "lora-adapters-step2000.npz",
+      "bytes": 185443783,
+      "sha256": "7727733e0ea8ac873c70a56d33250c70ad42357f55afe2035826d043def349de"
+    }
+  },
+  "runtime_edits": "Only hardcoded runtime-root imports replaced in copied execution Python files; new orchestration is separate."
+}

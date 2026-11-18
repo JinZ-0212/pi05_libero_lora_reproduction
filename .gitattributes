@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preserve the byte-level historical experiment evidence and its hashes.
+records/** -text -whitespace
+environment/*.original.txt -text -whitespace
+third_party/** -whitespace
+*.png binary
+*.mp4 binary

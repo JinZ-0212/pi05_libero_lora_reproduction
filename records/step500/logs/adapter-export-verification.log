@@ -1,0 +1,1 @@
+ADAPTER_EXPORT_VERIFIED {"status": "verified", "base_parameters_match_training_frozen_hashes": true, "exported_adapters_match_training_final_hashes": true, "combined_model_passes_strict_parameter_tree_and_shape_load": true, "device": "CPU", "scope": "Parameter reconstruction only; actual rollouts use the saved full Orbax checkpoints."}

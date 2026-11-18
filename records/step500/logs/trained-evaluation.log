@@ -1,0 +1,139 @@
+[robosuite WARNING] No private macro file found! (macros.py:53)
+[robosuite WARNING] It is recommended to use a private macro file (macros.py:54)
+[robosuite WARNING] To setup, run: python /home/linux/Documents/pi05-libero-20261118/sim-env/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (macros.py:55)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Users of this version of Gym should be able to simply replace 'import gym' with 'import gymnasium as gym' in the vast majority of cases.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+INFO:root:Task suite: libero_object
+INFO:root:Waiting for server at ws://127.0.0.1:8004...
+  0%|          | 0/10 [00:00<?, ?it/s]/home/linux/Documents/pi05-libero-20261118/sources/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the alphabet soup and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 1 False
+INFO:root:# episodes completed so far: 1
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.84s/it][A100%|██████████| 1/1 [00:15<00:00, 15.84s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 10%|█         | 1/10 [00:18<02:42, 18.02s/it]/home/linux/Documents/pi05-libero-20261118/sources/libero/libero/libero/benchmark/__init__.py:164: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  init_states = torch.load(init_states_path)
+
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the cream cheese and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 2 False
+INFO:root:# episodes completed so far: 2
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:16<00:00, 16.04s/it][A100%|██████████| 1/1 [00:16<00:00, 16.04s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 20%|██        | 2/10 [00:35<02:20, 17.51s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the salad dressing and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 3 False
+INFO:root:# episodes completed so far: 3
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.87s/it][A100%|██████████| 1/1 [00:15<00:00, 15.87s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 30%|███       | 3/10 [00:52<02:00, 17.27s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the bbq sauce and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 4 False
+INFO:root:# episodes completed so far: 4
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.99s/it][A100%|██████████| 1/1 [00:15<00:00, 15.99s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 40%|████      | 4/10 [01:09<01:43, 17.24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the ketchup and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 5 False
+INFO:root:# episodes completed so far: 5
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.53s/it][A100%|██████████| 1/1 [00:15<00:00, 15.53s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 50%|█████     | 5/10 [01:25<01:24, 16.99s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the tomato sauce and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 6 False
+INFO:root:# episodes completed so far: 6
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.71s/it][A100%|██████████| 1/1 [00:15<00:00, 15.71s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 60%|██████    | 6/10 [01:42<01:07, 16.91s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the butter and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 7 False
+INFO:root:# episodes completed so far: 7
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.87s/it][A100%|██████████| 1/1 [00:15<00:00, 15.87s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 70%|███████   | 7/10 [01:59<00:50, 16.90s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the milk and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 8 False
+INFO:root:# episodes completed so far: 8
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.68s/it][A100%|██████████| 1/1 [00:15<00:00, 15.68s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 80%|████████  | 8/10 [02:16<00:33, 16.83s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the chocolate pudding and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 9 False
+INFO:root:# episodes completed so far: 9
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.73s/it][A100%|██████████| 1/1 [00:15<00:00, 15.73s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+ 90%|█████████ | 9/10 [02:32<00:16, 16.81s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][AINFO:root:
+Task: pick up the orange juice and place it in the basket
+INFO:root:Starting episode 1...
+INFO:root:Success: False
+EPISODE_RESULT trained libero_object 10 False
+INFO:root:# episodes completed so far: 10
+INFO:root:# successes: 0 (0.0%)
+
+100%|██████████| 1/1 [00:15<00:00, 15.49s/it][A100%|██████████| 1/1 [00:15<00:00, 15.49s/it]
+INFO:root:Current task success rate: 0.0
+INFO:root:Current total success rate: 0.0
+100%|██████████| 10/10 [02:49<00:00, 16.71s/it]100%|██████████| 10/10 [02:49<00:00, 16.94s/it]
+INFO:root:Total success rate: 0.0
+INFO:root:Total episodes: 10
+SUITE_SUMMARY {"status": "completed", "checkpoint": "/home/linux/Documents/pi05-libero-20261118/experiments/pi05-object-lora-20261118/checkpoints/pi05_object_lora_3090/pilot500/500", "condition": "trained", "suite": "libero_object", "seed": 7, "initial_state_index": 1, "replan_steps": 5, "flow_steps": 10, "episodes_per_task": 1, "expected_episodes": 10, "completed_episodes": 10, "successes": 0, "success_rate": 0.0, "model_calls": 560, "elapsed_seconds": 169.58378470700154, "executed_steps_including_settling": 2900, "weight_updates": 500, "action_horizon": 10, "discrete_state_input": false, "normalization": "Object pilot: fitted on 40 training episodes only", "errors": [], "limitations": "Pilot before/after comparison: 40 expert training episodes, 500 LoRA updates, one simulator initial state per task, environment seed=7. The initial-state index 1 was predeclared and is not guaranteed disjoint from demonstration collection states. This is not an official benchmark reproduction."}

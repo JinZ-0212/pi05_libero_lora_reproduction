@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-11-18T16:17:08.905782+00:00",
+  "historical_source_files_compared_byte_for_byte": 221,
+  "offline_artifact_verification": {
+    "status": "verified",
+    "historical_files_sha256_checked": 223,
+    "training_updates": 2000,
+    "valid_simulation_episodes": 30,
+    "results": {
+      "0": {
+        "successes": 0,
+        "episodes": 10
+      },
+      "500": {
+        "successes": 0,
+        "episodes": 10
+      },
+      "2000": {
+        "successes": 0,
+        "episodes": 10
+      }
+    },
+    "portable_numerical_scripts": "path-only edits verified",
+    "gpu_used": false,
+    "caveat": "Portable orchestration has not been used to rerun the GPU experiments."
+  },
+  "workspace_initialization_and_idempotence": "passed",
+  "alternate_path_with_spaces_dry_runs": 8,
+  "credential_pattern_scan": "passed; no connection endpoint or recognized private-key/token patterns",
+  "documentation_local_links": "passed",
+  "shell_syntax_check": "passed (bash -n on Linux)",
+  "linux_cpu_import_and_real_frame_check": [
+    {
+      "status": "passed",
+      "phase": "pilot500",
+      "num_train_steps": 500,
+      "train_frames": 5934,
+      "action_shape": [
+        1,
+        10,
+        32
+      ],
+      "state_shape": [
+        1,
+        32
+      ],
+      "device": "cpu",
+      "loaded_real_frame": true,
+      "optimizer_updates": 0,
+      "adapter_loader_import": "passed"
+    },
+    {
+      "status": "passed",
+      "phase": "continuation2000",
+      "num_train_steps": 2000,
+      "train_frames": 5934,
+      "action_shape": [
+        1,
+        10,
+        32
+      ],
+      "state_shape": [
+        1,
+        32
+      ],
+      "device": "cpu",
+      "loaded_real_frame": true,
+      "optimizer_updates": 0,
+      "adapter_loader_import": "passed"
+    }
+  ],
+  "full_portable_gpu_pipeline_rerun": false,
+  "clean_environment_install_rerun": false,
+  "github_actions_executed": false,
+  "github_published": false,
+  "regenerated_plot": "passed (CPU; writes only ignored runtime/figures)",
+  "completed_at_utc": "2026-11-18T16:18:11.211096+00:00"
+}

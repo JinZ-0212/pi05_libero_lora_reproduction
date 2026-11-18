@@ -1,0 +1,22 @@
+{
+  "PaliGemma/llm/layers/attn/attn_vec_einsum/lora_a": "cb5c751a29d5bd88fa30a4a551e6025a880bfbd6453b9adce7b3727b0a76d751",
+  "PaliGemma/llm/layers/attn/attn_vec_einsum/lora_b": "dcc96c396449f62a10b452f8402f44fad81e1774f23e08b57b74d5bf1c840e44",
+  "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_a": "99ec48ed990b6779ff4705ff2bf37d95968f16640704b683054479890e2702cd",
+  "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_b": "d87f3c2cb48b376ca780caac3cb8be45b3acf227187ab86310447d7356f0f13d",
+  "PaliGemma/llm/layers/attn/kv_einsum/lora_a": "6c380e780ee39a5e0e42d6d770cf57eb72269c6c25d4ec22165dff66af703c5b",
+  "PaliGemma/llm/layers/attn/kv_einsum/lora_b": "e21f862fced0ce464d4eed9b1abfa94709ff45939a1bb5c1444f2221ce6d7ef6",
+  "PaliGemma/llm/layers/attn/kv_einsum_1/lora_a": "9c414dd6bef5a2ab5e45e408ddc0ee373d2e4a8c345b71f733b1a70693235913",
+  "PaliGemma/llm/layers/attn/kv_einsum_1/lora_b": "7ab8c75957f309fe2de9e9de0b87d7efbca49541af69acb51e98c90c0f9842d4",
+  "PaliGemma/llm/layers/attn/q_einsum/lora_a": "8ad0a3e807afb65a71cf86ea5800ccb0ada03884bca7c70e0757961b1e895759",
+  "PaliGemma/llm/layers/attn/q_einsum/lora_b": "19e8c6671c3ea236ea1cbe173b257e311782c323012a4bd6d4450ef684dd8173",
+  "PaliGemma/llm/layers/attn/q_einsum_1/lora_a": "5ce489b808086a719c5d76c63ee14e21ae0e670aca086c69c5e4706aa9bd2bf3",
+  "PaliGemma/llm/layers/attn/q_einsum_1/lora_b": "b5d0482ed96a93ccfb8f2b6061ead987140967a271958e4c101005923de71dbd",
+  "PaliGemma/llm/layers/mlp/gating_einsum_lora_a": "234a127d3b5e664edaf706ae92aad8d8ed748533307d377c130f5f6692c77f1c",
+  "PaliGemma/llm/layers/mlp/gating_einsum_lora_b": "93ebe4061d12489d66a0c98c0e2223d350e02f363de0d127ebb61ee9eded8392",
+  "PaliGemma/llm/layers/mlp/linear_lora_a": "fbedc783fb209c3e0de81d05c6d14517c1038db31e1744a7abcec884f757002b",
+  "PaliGemma/llm/layers/mlp/linear_lora_b": "411e72469130a849e0a22370687ea22fca550b263ec0cf7dd2d5484467d3c608",
+  "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_a": "d58b5dc3ac887ab57cb53dacea65e6253ce31422dac25f49aadfdfccd697e476",
+  "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_b": "d18aced079882598b3559e68791ea21e2847981a99574aaee1e2047e4205fd8b",
+  "PaliGemma/llm/layers/mlp_1/linear_lora_a": "185357a828305dc2a4edfbb0fc9b9676fedd48ca538b81e63ba1db4444a9d416",
+  "PaliGemma/llm/layers/mlp_1/linear_lora_b": "08c6817f6792e5dc9002c7e02266df1a2bce9922468b282ac724ac4a8d04b05b"
+}

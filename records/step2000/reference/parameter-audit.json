@@ -1,0 +1,780 @@
+[
+  {
+    "path": "PaliGemma/img/Transformer/encoder_norm/bias",
+    "shape": [
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1152,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoder_norm/scale",
+    "shape": [
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1152,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/LayerNorm_0/bias",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/LayerNorm_0/scale",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/LayerNorm_1/bias",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/LayerNorm_1/scale",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MlpBlock_0/Dense_0/bias",
+    "shape": [
+      27,
+      4304
+    ],
+    "dtype": "bfloat16",
+    "parameters": 116208,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MlpBlock_0/Dense_0/kernel",
+    "shape": [
+      27,
+      1152,
+      4304
+    ],
+    "dtype": "bfloat16",
+    "parameters": 133871616,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MlpBlock_0/Dense_1/bias",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MlpBlock_0/Dense_1/kernel",
+    "shape": [
+      27,
+      4304,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 133871616,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/key/bias",
+    "shape": [
+      27,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/key/kernel",
+    "shape": [
+      27,
+      1152,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 35831808,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/out/bias",
+    "shape": [
+      27,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/out/kernel",
+    "shape": [
+      27,
+      16,
+      72,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 35831808,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/query/bias",
+    "shape": [
+      27,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/query/kernel",
+    "shape": [
+      27,
+      1152,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 35831808,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/value/bias",
+    "shape": [
+      27,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 31104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/Transformer/encoderblock/MultiHeadDotProductAttention_0/value/kernel",
+    "shape": [
+      27,
+      1152,
+      16,
+      72
+    ],
+    "dtype": "bfloat16",
+    "parameters": 35831808,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/embedding/bias",
+    "shape": [
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1152,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/embedding/kernel",
+    "shape": [
+      14,
+      14,
+      3,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 677376,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/head/bias",
+    "shape": [
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 2048,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/head/kernel",
+    "shape": [
+      1152,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 2359296,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/img/pos_embedding",
+    "shape": [
+      1,
+      256,
+      1152
+    ],
+    "dtype": "bfloat16",
+    "parameters": 294912,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/embedder/input_embedding",
+    "shape": [
+      257152,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 526647296,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/final_norm/scale",
+    "shape": [
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 2048,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/final_norm_1/Dense_0/bias",
+    "shape": [
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 3072,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/final_norm_1/Dense_0/kernel",
+    "shape": [
+      1024,
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 3145728,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum/lora_a",
+    "shape": [
+      18,
+      8,
+      256,
+      16
+    ],
+    "dtype": "float32",
+    "parameters": 589824,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum/lora_b",
+    "shape": [
+      18,
+      8,
+      16,
+      2048
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum/w",
+    "shape": [
+      18,
+      8,
+      256,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 75497472,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_a",
+    "shape": [
+      18,
+      8,
+      256,
+      32
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum_1/lora_b",
+    "shape": [
+      18,
+      8,
+      32,
+      1024
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/attn_vec_einsum_1/w",
+    "shape": [
+      18,
+      8,
+      256,
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 37748736,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum/lora_a",
+    "shape": [
+      18,
+      2,
+      1,
+      2048,
+      16
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum/lora_b",
+    "shape": [
+      18,
+      2,
+      1,
+      16,
+      256
+    ],
+    "dtype": "float32",
+    "parameters": 147456,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum/w",
+    "shape": [
+      18,
+      2,
+      1,
+      2048,
+      256
+    ],
+    "dtype": "bfloat16",
+    "parameters": 18874368,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum_1/lora_a",
+    "shape": [
+      18,
+      2,
+      1,
+      1024,
+      32
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum_1/lora_b",
+    "shape": [
+      18,
+      2,
+      1,
+      32,
+      256
+    ],
+    "dtype": "float32",
+    "parameters": 294912,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/kv_einsum_1/w",
+    "shape": [
+      18,
+      2,
+      1,
+      1024,
+      256
+    ],
+    "dtype": "bfloat16",
+    "parameters": 9437184,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum/lora_a",
+    "shape": [
+      18,
+      8,
+      2048,
+      16
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum/lora_b",
+    "shape": [
+      18,
+      8,
+      16,
+      256
+    ],
+    "dtype": "float32",
+    "parameters": 589824,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum/w",
+    "shape": [
+      18,
+      8,
+      2048,
+      256
+    ],
+    "dtype": "bfloat16",
+    "parameters": 75497472,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum_1/lora_a",
+    "shape": [
+      18,
+      8,
+      1024,
+      32
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum_1/lora_b",
+    "shape": [
+      18,
+      8,
+      32,
+      256
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/attn/q_einsum_1/w",
+    "shape": [
+      18,
+      8,
+      1024,
+      256
+    ],
+    "dtype": "bfloat16",
+    "parameters": 37748736,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/gating_einsum",
+    "shape": [
+      18,
+      2,
+      2048,
+      16384
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1207959552,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/gating_einsum_lora_a",
+    "shape": [
+      18,
+      2,
+      2048,
+      16
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/gating_einsum_lora_b",
+    "shape": [
+      18,
+      2,
+      16,
+      16384
+    ],
+    "dtype": "float32",
+    "parameters": 9437184,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/linear",
+    "shape": [
+      18,
+      16384,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 603979776,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/linear_lora_a",
+    "shape": [
+      18,
+      16384,
+      16
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp/linear_lora_b",
+    "shape": [
+      18,
+      16,
+      2048
+    ],
+    "dtype": "float32",
+    "parameters": 589824,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/gating_einsum",
+    "shape": [
+      18,
+      2,
+      1024,
+      4096
+    ],
+    "dtype": "bfloat16",
+    "parameters": 150994944,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_a",
+    "shape": [
+      18,
+      2,
+      1024,
+      32
+    ],
+    "dtype": "float32",
+    "parameters": 1179648,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/gating_einsum_lora_b",
+    "shape": [
+      18,
+      2,
+      32,
+      4096
+    ],
+    "dtype": "float32",
+    "parameters": 4718592,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/linear",
+    "shape": [
+      18,
+      4096,
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 75497472,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/linear_lora_a",
+    "shape": [
+      18,
+      4096,
+      32
+    ],
+    "dtype": "float32",
+    "parameters": 2359296,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/mlp_1/linear_lora_b",
+    "shape": [
+      18,
+      32,
+      1024
+    ],
+    "dtype": "float32",
+    "parameters": 589824,
+    "trainable": true
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_attention_norm/scale",
+    "shape": [
+      18,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 36864,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_attention_norm_1/Dense_0/bias",
+    "shape": [
+      18,
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 55296,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_attention_norm_1/Dense_0/kernel",
+    "shape": [
+      18,
+      1024,
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 56623104,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_ffw_norm/scale",
+    "shape": [
+      18,
+      2048
+    ],
+    "dtype": "bfloat16",
+    "parameters": 36864,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_ffw_norm_1/Dense_0/bias",
+    "shape": [
+      18,
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 55296,
+    "trainable": false
+  },
+  {
+    "path": "PaliGemma/llm/layers/pre_ffw_norm_1/Dense_0/kernel",
+    "shape": [
+      18,
+      1024,
+      3072
+    ],
+    "dtype": "bfloat16",
+    "parameters": 56623104,
+    "trainable": false
+  },
+  {
+    "path": "action_in_proj/bias",
+    "shape": [
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1024,
+    "trainable": false
+  },
+  {
+    "path": "action_in_proj/kernel",
+    "shape": [
+      32,
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 32768,
+    "trainable": false
+  },
+  {
+    "path": "action_out_proj/bias",
+    "shape": [
+      32
+    ],
+    "dtype": "bfloat16",
+    "parameters": 32,
+    "trainable": false
+  },
+  {
+    "path": "action_out_proj/kernel",
+    "shape": [
+      1024,
+      32
+    ],
+    "dtype": "bfloat16",
+    "parameters": 32768,
+    "trainable": false
+  },
+  {
+    "path": "time_mlp_in/bias",
+    "shape": [
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1024,
+    "trainable": false
+  },
+  {
+    "path": "time_mlp_in/kernel",
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1048576,
+    "trainable": false
+  },
+  {
+    "path": "time_mlp_out/bias",
+    "shape": [
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1024,
+    "trainable": false
+  },
+  {
+    "path": "time_mlp_out/kernel",
+    "shape": [
+      1024,
+      1024
+    ],
+    "dtype": "bfloat16",
+    "parameters": 1048576,
+    "trainable": false
+  }
+]
